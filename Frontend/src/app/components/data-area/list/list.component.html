@@ -1,0 +1,14 @@
+
+<select (change)="displayGifts($event)">
+
+    <option selected disabled value="">Select Target Audience</option>
+    <option *ngFor="let t of targetAudience" value={{t.targetAudienceId}}>{{t.targetAudienceName}}</option>
+</select>
+
+<br><br>
+
+<app-gift-card *ngFor="let g of gifts" [gift]="g" (deleteClicked)="deleteCard(g.giftId)" ></app-gift-card>
+<!-- 
+(deleteClicked)="deleteCard($event)" -->
+
+

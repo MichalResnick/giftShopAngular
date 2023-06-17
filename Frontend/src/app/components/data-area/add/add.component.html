@@ -1,0 +1,23 @@
+<form (ngSubmit)="send()" ngNativeVslidetion>
+
+    <select name="targetAudienceId" [(ngModel)]="gift.targetAudienceId" >
+
+        <option selected disabled value="">Select Target Audience</option>
+        <option *ngFor="let t of targetAudience" value={{t.targetAudienceId}}>{{t.targetAudienceName}}</option>
+    </select>
+
+    <label>Gift Name:</label>
+    <input type="text" name="name" [(ngModel)]="gift.name" required>
+
+    <label>Description</label>
+    <input type="text" name="description" [(ngModel)]="gift.description" required>
+
+    <label>Price:</label>
+    <input type="number" name="price" [(ngModel)]="gift.price" required min="0">
+
+    <label>Discount:</label>
+    <input type="number" name="discount" [(ngModel)]="gift.discount" required min="10">
+
+    <button>Add</button>
+
+</form>

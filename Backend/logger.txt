@@ -1,0 +1,18 @@
+14.6.2023, 2:49:47 	 connect ECONNREFUSED ::1:3306
+----------------------------
+14.6.2023, 3:25:26 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+----------------------------
+14.6.2023, 3:45:51 	 Route /api/gifts5 not exist
+----------------------------
+14.6.2023, 3:45:53 	 Route /api/gifts1 not exist
+----------------------------
+14.6.2023, 3:49:02 	 Route /api/gifts6 not exist
+----------------------------
+14.6.2023, 3:53:36 	 Route /api/gifts6 not exist
+----------------------------
+14.6.2023, 3:53:40 	 Route /api/gifts6 not exist
+----------------------------
+14.6.2023, 3:54:37 	 Route /api/gifts/6 not exist
+----------------------------
+14.6.2023, 4:01:25 	 ER_NO_SUCH_TABLE: Table 'giftshop.meetings' doesn't exist
+----------------------------
